@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <View
+        android:id="@+id/group_86"
+        android:layout_width="126dp"
+        android:layout_height="48.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="565dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/group_87"
+        android:layout_width="126dp"
+        android:layout_height="48.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="565dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/group_88"
+        android:layout_width="126dp"
+        android:layout_height="48.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="565dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/group_89"
+        android:layout_width="126dp"
+        android:layout_height="48.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="483dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/group_90"
+        android:layout_width="126dp"
+        android:layout_height="48.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="483dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/group_80"
+        android:layout_width="126dp"
+        android:layout_height="48.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="483dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/group_78"
+        android:layout_width="126dp"
+        android:layout_height="48.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="402dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/group_79"
+        android:layout_width="126dp"
+        android:layout_height="48.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="402dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/group_85"
+        android:layout_width="126dp"
+        android:layout_height="48.5dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="402dp"
+        tools:ignore="MissingConstraints" />
+</selector>

@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6AAED0">
+
+
+    <ImageView
+        android:layout_width="458dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="610dp"
+        android:src="@drawable/biru"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/biru_latar"
+        android:layout_width="458dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginBottom="484dp"
+        android:src="@drawable/biru"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:layout_width="403dp"
+        android:layout_height="363dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="164dp"
+        android:src="@drawable/putih_home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="421dp"
+        android:src="@drawable/listrik"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="305dp"
+        android:layout_marginBottom="421dp"
+        android:src="@drawable/quota"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="421dp"
+        android:src="@drawable/pendidikan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="304dp"
+        android:src="@drawable/transfer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="191dp"
+        android:src="@drawable/donasi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="306dp"
+        android:layout_marginBottom="191dp"
+        android:src="@drawable/kesehatan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="306dp"
+        android:layout_marginBottom="304dp"
+        android:src="@drawable/air"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="191dp"
+        android:src="@drawable/pajak"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="220dp"
+        android:layout_marginBottom="304dp"
+        android:src="@drawable/topup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="304dp"
+        android:src="@drawable/air"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="469dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="191dp"
+        android:src="@drawable/lainnya"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/transper"
+        android:layout_width="68dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="421dp"
+        android:src="@drawable/transfer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tri"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="323dp"
+        android:src="@drawable/bahar"
+        app:layout_constraintBottom_toTopOf="@id/biru_latar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="410dp"
+        android:layout_height="118dp"
+        android:layout_marginTop="672dp"
+        android:src="@drawable/bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="65sp"
+        android:layout_height="65sp"
+        android:layout_marginBottom="14dp"
+        android:src="@drawable/qr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.968" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="186dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Tri Mulia Bahar"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/biru_latar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="589dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Payo Points"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="328dp"
+        android:layout_marginBottom="575dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="536dp"
+        android:fontFamily="@font/inter_thin"
+        android:text="Your Available Balance"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="290dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Top Up"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="328dp"
+        android:layout_marginBottom="290dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Pulsa"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="315dp"
+        android:layout_marginBottom="177dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Kesehatan"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="240dp"
+        android:layout_marginBottom="177dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Pajak"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="177dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Donasi"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="290dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Film"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="427dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="290dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Voucher"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="314dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="177dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Lainnya"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="327dp"
+        android:layout_marginBottom="407dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Pulsa"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginBottom="407dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Listrik"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="407dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Transfer"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="407dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Pendidikan"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="626dp"
+        android:layout_marginEnd="250dp"
+        android:layout_marginBottom="87dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Transaction History"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="555dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Hi,  Tri Mulia Bahar"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="289dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="554dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="Rp 500.000"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="339dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="41dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="help"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@id/biru_latar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="313dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="78dp"
+        android:src="@drawable/help"
+        app:layout_constraintBottom_toTopOf="@id/biru_latar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.258" />
+
+    <Button
+        android:id="@+id/viewww"
+        android:layout_width="120dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="278dp"
+        android:layout_marginTop="622dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="79dp"
+        android:backgroundTint="#6AAED0"
+        android:text="View All >"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

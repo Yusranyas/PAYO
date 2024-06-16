@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "947480709298",
+    "project_id": "e-wallet-4a639",
+    "storage_bucket": "e-wallet-4a639.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947480709298:android:0b0d77b7cdd9bc82cf21ab",
+        "android_client_info": {
+          "package_name": "com.example.tubesujicoba"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCskHwFLlvXDxLknqaToeQ4gZleuCBcLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

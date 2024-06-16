@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6AAED0">
+
+    <ImageView
+        android:id="@+id/kembalii"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginLeft="35dp"
+        android:src="@drawable/panah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/week"/>
+
+    <ImageView
+        android:id="@+id/week"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/history1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kembalii"
+        app:layout_constraintBottom_toTopOf="@id/transaksi1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Minggu ini"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintTop_toTopOf="@id/week"
+        app:layout_constraintBottom_toBottomOf="@id/week"
+        app:layout_constraintStart_toStartOf="@id/week"
+        app:layout_constraintEnd_toEndOf="@id/week"/>
+
+
+    <ImageView
+        android:id="@+id/transaksi1"
+        android:layout_width="342dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/transaksi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/week"
+        app:layout_constraintBottom_toTopOf="@id/transaksi2"/>
+
+    <ImageView
+        android:id="@+id/kotak1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="7.5dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginBottom="7.5dp"
+        android:layout_marginRight="7.5dp"
+        android:src="@drawable/kotak_putih"
+        app:layout_constraintTop_toTopOf="@id/transaksi1"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi1"
+        app:layout_constraintStart_toStartOf="@id/transaksi1"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="InvalidId,MissingConstraints"/>
+
+
+    <TextView
+        android:id="@+id/toko1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Warung Salsabila"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi1" />
+
+    <TextView
+        android:id="@+id/toko1.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="-RP.15.000"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi1"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/toko1.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="25 Mei 2024   18:20 PM"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi1"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <ImageView
+        android:id="@+id/transaksi2"
+        android:layout_width="342dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/transaksi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transaksi1"
+        app:layout_constraintBottom_toTopOf="@+id/transaksi3"/>
+
+    <ImageView
+        android:id="@+id/kotak2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginStart="7.5dp"
+        android:layout_marginBottom="7.5dp"
+        android:src="@drawable/kotak_putih"
+        app:layout_constraintStart_toStartOf="@id/transaksi2"
+        app:layout_constraintTop_toTopOf="@id/transaksi2"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi2"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:id="@+id/toko2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Jus Zahra"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.254"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi2"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <TextView
+        android:id="@+id/toko2.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="-RP.11.000"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi2"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/toko2.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="25 Mei 2024   09:05 AM"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi2"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <ImageView
+        android:id="@+id/transaksi3"
+        android:layout_width="342dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/transaksi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transaksi2"
+        app:layout_constraintBottom_toTopOf="@id/transaksi4"/>
+
+    <ImageView
+        android:id="@+id/kotak3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginBottom="7.5dp"
+        android:layout_marginStart="7.5dp"
+        android:src="@drawable/kotak_putih"
+        app:layout_constraintStart_toStartOf="@id/transaksi3"
+        app:layout_constraintTop_toTopOf="@id/transaksi3"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi3"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/toko3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="RM Payakumbuh"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi3"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <TextView
+        android:id="@+id/toko3.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="-RP.23.000"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi3"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/toko3.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="25 Mei 2024   09:15 AM"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi3"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <ImageView
+        android:id="@+id/transaksi4"
+        android:layout_width="342dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/transaksi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transaksi3"
+        app:layout_constraintBottom_toTopOf="@id/transaksi5"/>
+
+    <ImageView
+        android:id="@+id/kotak4"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginStart="7.5dp"
+        android:layout_marginBottom="7.5dp"
+        android:src="@drawable/kotak_putih"
+        app:layout_constraintStart_toStartOf="@id/transaksi4"
+        app:layout_constraintTop_toTopOf="@id/transaksi4"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi4"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/toko4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Warung Salsabila"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi4" />
+
+    <TextView
+        android:id="@+id/toko4.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="-RP.17.000"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi4"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/toko4.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="22 Mei 2024   18:32 PM"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi4"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <ImageView
+        android:id="@+id/transaksi5"
+        android:layout_width="342dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/transaksi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transaksi4"
+        app:layout_constraintBottom_toTopOf="@id/transaksi6"/>
+
+    <ImageView
+        android:id="@+id/kotak5"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginStart="7.5dp"
+        android:layout_marginBottom="7.5dp"
+        android:src="@drawable/kotak_putih"
+        app:layout_constraintStart_toStartOf="@id/transaksi5"
+        app:layout_constraintTop_toTopOf="@id/transaksi5"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi5"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/toko5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Warung Salsabila"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi5" />
+
+    <TextView
+        android:id="@+id/toko5.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="-RP.13.000"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi5"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/toko5.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="22 Mei 2024   11:43 AM"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi5"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <ImageView
+        android:id="@+id/transaksi6"
+        android:layout_width="342dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/transaksi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/transaksi5"
+        app:layout_constraintBottom_toTopOf="@id/transaksi7"/>
+
+    <ImageView
+        android:id="@+id/kotak6"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginStart="7.5dp"
+        android:layout_marginBottom="7.5dp"
+        android:src="@drawable/kotak_putih"
+        app:layout_constraintStart_toStartOf="@id/transaksi6"
+        app:layout_constraintTop_toTopOf="@id/transaksi6"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi6"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/toko6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="RM Surya"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi6" />
+
+    <TextView
+        android:id="@+id/toko6.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="-RP.14.000"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi6"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/toko6.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="21 Mei 2024   17:17 PM"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi6"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <ImageView
+        android:id="@+id/transaksi7"
+        android:layout_width="342dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/transaksi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/transaksi6"
+        app:layout_constraintBottom_toTopOf="@id/week1"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <ImageView
+        android:id="@+id/kotak7"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginStart="7.5dp"
+        android:layout_marginBottom="7.5dp"
+        android:src="@drawable/kotak_putih"
+        app:layout_constraintStart_toStartOf="@id/transaksi7"
+        app:layout_constraintTop_toTopOf="@id/transaksi7"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi7"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/toko7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Ketoprak Pelangi"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.291"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi7" />
+
+    <TextView
+        android:id="@+id/toko7.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="-RP.16.000"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi7"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/toko7.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="21 Mei 2024   10:49 AM"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.86"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi7"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <ImageView
+        android:id="@+id/week1"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginLeft="35dp"
+        android:src="@drawable/history1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/transaksi7"
+        app:layout_constraintBottom_toTopOf="@id/transaksi8"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Minggu Lalu"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@id/week1"
+        app:layout_constraintEnd_toEndOf="@id/week1"
+        app:layout_constraintStart_toStartOf="@id/week1"
+        app:layout_constraintTop_toTopOf="@id/week1" />
+
+    <ImageView
+        android:id="@+id/transaksi8"
+        android:layout_width="342dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="90dp"
+        android:src="@drawable/transaksi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/week1"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:id="@+id/kotak8"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="7.5dp"
+        android:layout_marginTop="7.5dp"
+        android:layout_marginBottom="7.5dp"
+        android:src="@drawable/kotak_putih"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi8"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@id/transaksi8"
+        app:layout_constraintTop_toTopOf="@id/transaksi8" />
+
+    <TextView
+        android:id="@+id/toko8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Seblak Mama"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.274"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi8"
+        app:layout_constraintVertical_bias="0.531" />
+
+    <TextView
+        android:id="@+id/toko8.1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="-RP.13.000"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="@id/transaksi8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/transaksi8"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <TextView
+        android:id="@+id/toko8.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="17 Mei 2024   15:44 PM"
+        android:textColor="@color/black"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.864" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
